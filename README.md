@@ -47,6 +47,9 @@ VAST clusters running version 4.7 and later expose separate metrics endpoints, g
 
 Example `prometheus.yml` configuration:
 
+## For all metrics per Job_name per cluster use
+metrics_path: '/api/prometheusmetrics/all'
+
 ```yaml
 # Base metrics
 - job_name: 'vast_base'
