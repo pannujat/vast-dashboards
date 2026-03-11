@@ -35,6 +35,9 @@ These dashboards support VAST versions 5.1-sp40 and later with the built-in Prom
 The dashboards are provided as `.json` files – import them into your Grafana instance and configure a Prometheus data source as shown below.
 
 ---
+## Vast User Configuration
+
+Make sure to create a user and give it readonly access and api access under Managers.
 
 ## Prometheus Configuration
 
